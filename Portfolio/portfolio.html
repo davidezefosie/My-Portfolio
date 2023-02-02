@@ -7,32 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="">
+    <link rel="icon" href="images/favicon.ico">
     <script src="https://kit.fontawesome.com/510d5f6224.js" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome-free-6.0.0-beta3-web/css/all.css">
+
 </head>
 
 <body>
     <div id="header">
         <div class="container">
             <nav>
-                <img src="./Logo.png" class="logo">
+                <img src="images/logo.png" class="logo">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <i class="fa-regular fa-circle-xmark"></i>
+                    <!-- <li><a href="#">Home</a></li> -->
+                    <!-- <li><a href="#">About</a></li> -->
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-                <i class="fa-solid fa-bars"></i>
             </nav>
             <div class="header-text">
-                <p>Web Designer</p>
-                <h1>Hello, I'm <span>Adeife</span> <br>Oluwatosin in Lagos State</h1>
+                <p>Web Developer</p>
+                <h1>Hello, I'm <span>David</span> <br>Ezefosie</h1>
+                <img class="r-m" src="images/tv-show-crossover-bender-futurama-futurama-rick-sanchez-hd-wallpaper-preview.jpg" alt="">
             </div>
         </div>
     </div>
-    <!-- -----------about----------- -->
+
+    <!-- About
+    
     <div id="about">
         <div class="container">
             <div class="row">
@@ -72,59 +77,68 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <!-- ------------services----------- -->
+    <!-- Services -->
+
     <div id="services">
         <div class="container">
-            <h1 class="sub-title">My Services</h1>
+            <h1 class="sub-title">Denna's Services</h1>
             <div class="services-list">
                 <div>
-                    <i class="fa-brands fa-app-store"></i>
-                    <h2>Web Design</h2>
-                    <p>Creation of web pages is one of my best skills in which I believe you will not be dissapointed by
-                        my projects</p>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>As a successful freelancer, I excel at writing Front End and Back End Code</p>
 
                 </div>
                 <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>App Developer</h2>
-                    <p>I also engage in app developing</p>
+                    <i class="fab fa-spotify"></i>
+                    <h2>Software Developer</h2>
+                    <p>Using Python and many other languages, I develop many sorts of software, ranging from gaming to media softwares</p>
 
                 </div>
 
             </div>
         </div>
     </div>
-    <!-------------portfolio------------->
+
+    <!-- Portfolio -->
+
     <div id="portfolio">
         <div class="container">
             <hi class="sub-title">My Work</hi>
             <div class="work-list">
                 <div class="work">
-                    <img src="./Portfolio.png" alt="Portfolio">
-                    <div class="layer">
-                        <h3>Portfolio</h3>
-                    </div>
+                    <a class="pf-cards" href="portfolio.html">
+                        <img src="images/portfolio.png" alt="Portfolio">
+                        <div class="layer">
+                            <h3>Portfolio</h3>
+                        </div>
+                    </a>
                 </div>
-                <div class="work">
-                    <img src="./Currency Converter.png" alt="Currency Converter">
-                    <div class="layer">
-                        <h3>Currency Converter</h3>
+
+                <a class="pf-cards" href="/Currency converter/cconverter.html">
+                    <div class="work">
+                        <img src="images/Currency Converter.png" alt="Currency Converter">
+                        <div class="layer">
+                            <h3>Currency Converter</h3>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
-        <!-- --------contact-------- -->
+
+        <!-- Contact -->
+
         <div id="contact">
             <div class="container">
                 <div class="row">
                     <div class="contact-left">
                         <h1 class="sub-title">Contact Me</h1>
-                        <p><i class="fa-solid fa-envelope"></i>temitopeifee@gmail.com</p>
-                        <p><i class="fa-solid fa-square-phone"></i>09039898173</p>
+                        <p><i class="fa-solid fa-envelope"></i>davidscience80@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>09013598169</p>
                         <div class="social-icons">
-                            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i>
+                            <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
                         </div>
 
                     </div>
@@ -139,6 +153,6 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>Copyright <i class="fa-regular fa-copyright"></i>Temii Tope</p>
+                <p>Copyright <i class="fa-regular fa-copyright"></i> Denna</p>
             </div>
         </div>
